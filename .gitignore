@@ -1,41 +1,21 @@
 ```
-# Rust/Cargo
+# Dependencies
 target/
 Cargo.lock
-**/*.rs.bk
 
-# Tauri
-src-tauri/target/
-
-# Dependencies
-**/node_modules/
-**/.npm/
-**/package-lock.json
-**/yarn.lock
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE
+# Editors
 .vscode/
 .idea/
-**/.DS_Store
-**/Thumbs.db
 
-# Build artifacts
-**/dist/
-**/build/
-**/out/
-**/bin/
-**/lib/
-
-# Temporary files
-**/*.tmp
-**/*.temp
-**/*~
+# Rust-specific
+**/*.rs.bk
 ```
