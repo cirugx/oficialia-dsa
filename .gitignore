@@ -1,6 +1,8 @@
 ```
 # Dependencies
+node_modules/
 target/
+src-tauri/target/
 Cargo.lock
 
 # Logs and temp files
