@@ -19,3 +19,4 @@ Cargo.lock
 # Rust-specific
 **/*.rs.bk
 ```
+node_modules
