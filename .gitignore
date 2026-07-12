@@ -3,6 +3,7 @@
 node_modules/
 target/
 src-tauri/target/
+src-tauri/gen/
 Cargo.lock
 
 # Logs and temp files
