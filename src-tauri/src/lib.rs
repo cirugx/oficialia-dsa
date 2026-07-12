@@ -37,8 +37,6 @@ pub mod infrastructure;
 pub mod error;
 pub mod config;
 pub mod database;
-pub mod scanner;
-pub mod ocr;
 pub mod gemini;
 
 use tauri::Manager;
