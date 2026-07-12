@@ -1,120 +1,41 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# Dependency directories
-node_modules/
-.pnpm-store/
-package-lock.json
-npm-shrinkwrap.json
-pnpm-lock.yaml
-
-# Build output
-dist/
-dist-ssr/
-build/
-out/
-public/dist/
-*.tgz
-
-# Tauri / Rust artifacts
-src-tauri/target/
+```
+# Rust/Cargo
 target/
-**/target/
-**/Cargo.lock
-**/Cargo.toml.orig
-**/Cargo.toml.bk
-*.dSYM
-*.rs.bk
+Cargo.lock
+**/*.rs.bk
 
-# TypeScript
-*.tsbuildinfo
-*.tscache
+# Tauri
+src-tauri/target/
 
-# Environment files
-.env
-.env.*
-!.env.example
+# Dependencies
+**/node_modules/
+**/.npm/
+**/package-lock.json
+**/yarn.lock
 
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-ehthumbs.db
-Icon
-
-# Editor directories and files
-.vscode/
-!.vscode/extensions.json
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.code-workspace
-
-# JetBrains
-*.iml
-.idea/
-.idea/*
-
-# Misc
+# Logs
 *.log
-*.tmp
-*.temp
-*.bak
-*.orig
-*.pid
-*.seed
-*.coverdata
 
-# Yarn
-.yarn/*
-.yarnrc.yml
-.yarnrc
+# Environment
+.env
+.env.local
+.env.*
 
-# npm
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# IDE
+.vscode/
+.idea/
+**/.DS_Store
+**/Thumbs.db
 
-# Vite
-/.vite/
+# Build artifacts
+**/dist/
+**/build/
+**/out/
+**/bin/
+**/lib/
 
-# VS Code
-.history/
-
-# Binary/IDE
-*.7z
-*.gz
-*.zip
-*.tar
-*.rar
-
-# Generated documentation
-docs/
-
-# Local npm package
-*.tgz
-
-# Lock files
-package-lock.json
-pnpm-lock.yaml
-
-# Service worker cache
-workbox-*.js
-
-# macOS
-.AppleDouble
-.LSOverride
-
-# misc system files
-*.swp
-*~
+# Temporary files
+**/*.tmp
+**/*.temp
+**/*~
+```
