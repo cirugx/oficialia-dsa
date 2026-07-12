@@ -1,25 +1,36 @@
 ```
-# Dependencies
-node_modules/
+# Build artifacts
 target/
-src-tauri/target/
-src-tauri/gen/
-Cargo.lock
+**/*.rs.bk
+**/*.rs~
 
-# Logs and temp files
-*.log
+# Dependencies
+Cargo.lock
+vendor/
+
+# Tauri specific
+src-tauri/target/
+**/tauri.conf.json
+**/tauri-build-dependencies
+
+# Temporary files
 *.tmp
+*.temp
+*.bak
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+!.env.example
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
+**/logs/
+**/*.log
 
-# Rust-specific
-**/*.rs.bk
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
-node_modules
